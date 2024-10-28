@@ -6,8 +6,8 @@ module.exports = {
     ClientId: "1002713312661872731",    // ايدي البوت
     serverinvte: "https://discord.gg/sQvVXfPb", // انفايت سير
     clientSECRET: "iH3WXSzd_n-Aad36bs4F9leJM0WFAl5h", // سكريت
-    callbackURL: "https://gg-5stg.vercel.app/", // الكال باك
-    TheLinkVerfy : "https://discord.com/oauth2/authorize?client_id=1002713312661872731&response_type=code&redirect_uri=https%3A%2F%2Fgg-5stg.vercel.app%2F&scope=identify+guilds+guilds.join+email", // رابط اوثو رايز بالصلاحيه ادخال الي سيرفرات
+    callbackURL: "https://gg-79y8.vercel.app/", // الكال باك
+    TheLinkVerfy : 'https://discord.com/oauth2/authorize?client_id=1002713312661872731&response_type=code&redirect_uri=https%3A%2F%2Fgg-79y8.vercel.app%2F&scope=identify+guilds+guilds.join+email', // رابط اوثو رايز بالصلاحيه ادخال الي سيرفرات
     prefix : '$', 
      TOKEN: ("MTI5MjgzNDg5Mzk5ODMyOTg5Ng.G73Hv_.JPdkaVFOMJMG98LmdPz-0sx9sz2Ka-ojBzY6iQ"),// توكن 
     TraId  : '1153316197081821286', // الي يتحوله كريديت
