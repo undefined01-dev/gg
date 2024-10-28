@@ -283,7 +283,7 @@ client.on('ready', () => {
   console.log(`Bot is On! ${client.user.tag}`);
   console.log(`Bot Version ${process.version}`);
 });
-client.login(`MTAwMjcxMzMxMjY2MTg3MjczMQ.GmvpEn.cPA2-hApAK1uzDbSvY54jGteS9tQF-zJseE1ew`);
+client.login(process.env.DISCORD_BOT_TOKEN);
 const { AutoKill } = require('autokill')
 AutoKill({ Client: client, Time: 5000 })
 

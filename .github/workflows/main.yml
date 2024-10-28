@@ -1,0 +1,23 @@
+name: Run Discord Bot
+
+on: [push] # Run the workflow on every push to the repository
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest # Use a Ubuntu virtual environment
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # Get your code onto the runner
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16 # Specify the Node.js version
+
+      - name: Install dependencies
+        run: npm install # Install your bot's dependencies
+
+      - name: Start the bot
+        run: node . # Replace with the command to start your bot
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.TOKEN }} # Access the secret
